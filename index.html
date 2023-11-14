@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;700&display=swap" rel="stylesheet">
+    <title>CD Club 2023</title>
+    <style>
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playpen Sans', sans-serif;
+    background-image: url('images/wood-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+        }
+
+
+.mix {
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+	text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    width: 300px; /* Adjust as needed */
+    background-color: #F5EBE0; /* Beige color */
+/*	background-image: url('images/card-bg.jpg'); /* Overlay texture */  */
+    background-blend-mode: multiply; /* Blend the texture with the background color */
+    position: relative; /* Ensures proper layering */
+
+
+}
+
+.mix img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mix .mix-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.mix .curator {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.mix .description {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+        .description {
+            margin-bottom: 10px;
+        }
+
+        .link {
+			text-align: center;
+            display: block;
+            margin-bottom: 5px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        @media screen and (max-width: 600px) {
+            .mix {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Repeat this block for each mix -->
+
+
+        <div class="mix" style="transform: rotate(-1deg);">
+            <img src="images/big.png" alt="Album Cover">
+    <h1 class="mix-title">CD Club Goes Big</h1>
+    <p class="curator">Dave</p>
+    <p class="description"></p>
+    <a href="https://open.spotify.com/playlist/306AygkBdAlU78CqjpWuXQ?si=e8329f7ead654c95" class="link" target="parent">Spotify</a>
+    <a href="https://music.apple.com/us/playlist/cd-club-goes-big/pl.u-GAqVCZ80JE7" class="link" target="parent">Apple Music</a>
+        </div>
+
+
+
+        <div class="mix" style="transform: rotate(3deg);">
+            <img src="images/nanimals.png" alt="Album Cover">
+    <h1 class="mix-title">Nanimal Sounds</h1>
+    <p class="curator">Colleen</p>
+    <p class="description"></p>
+    <a href="https://open.spotify.com/playlist/1pmIxfXzJdn9A0YNaPfdz0?si=b2b8bc6373fa47ed" class="link" target="parent">Spotify</a>
+    <a href="https://music.apple.com/us/playlist/nanimal-sounds/pl.u-2bZaFNL34bR" class="link" target="parent">Apple Music</a>
+        </div>
+
+        <div class="mix" style="transform: rotate(1deg);">
+            <img src="pending/Slide1.JPG" alt="Album Cover">
+    <h1 class="mix-title">Nothing Fancy</h1>
+    <p class="curator">John</p>
+    <p class="description"></p>
+<!--   <a href="spotify_link" class="link" target="parent">Spotify</a> -->
+<!--    <a href="apple_music_link" class="link" target="parent">Apple Music</a> -->
+        </div>
+
+
+        <div class="mix" style="transform: rotate(-1deg);">
+            <img src="images/struttin.png" alt="Album Cover">
+    <h1 class="mix-title">Struttin'</h1>
+    <p class="curator">Brian B.</p>
+    <p class="description"></p>
+    <a href="https://open.spotify.com/playlist/1k8hfOH76dr1P2CJuVrTrC?si=f89d7e834abe40d1" class="link" target="parent">Spotify</a>  
+    <a href="https://music.apple.com/us/playlist/cd-club-struttin/pl.u-j8lWudq9reG" class="link" target="parent">Apple Music</a>
+        </div>
+
+
+
+        <div class="mix" style="transform: rotate(-2deg);">
+            <img src="pending/Slide2.JPG" alt="Album Cover">
+    <h1 class="mix-title">BACKTOBACK</h1>
+    <p class="curator">Jay</p>
+    <p class="description"></p>
+<!--    <a href="spotify_link" class="link" target="parent">Spotify</a> -->
+<!--    <a href="apple_music_link" class="link" target="parent">Apple Music</a> -->
+        </div>
+
+
+        <div class="mix" style="transform: rotate(2deg);">
+            <img src="pending/Slide3.JPG" alt="Album Cover">
+    <h1 class="mix-title">CD Club Cleans</h1>
+    <p class="curator">Stef</p>
+    <p class="description"></p>
+<!--    <a href="spotify_link" class="link" target="parent">Spotify</a> -->
+<!--    <a href="apple_music_link" class="link" target="parent">Apple Music</a> -->
+        </div>
+		
+		
+
+        <div class="mix" style="transform: rotate(2deg);">
+            <img src="images/thousandwords.jpg" alt="Album Cover">
+    <h1 class="mix-title">A Picture is Worth a Thousand Songs</h1>
+    <p class="curator">Jeremy</p>
+    <p class="description"></p>
+    <a href="https://open.spotify.com/playlist/6TlbW1rvjnJOIoCmUKlc6W?si=bfff2f6ca38a47b6" class="link" target="parent">Spotify</a>
+    <a href="https://music.apple.com/us/playlist/a-picture-is-worth-a-thousand-songs/pl.u-GbkzIZ80JE7" class="link" target="parent">Apple Music</a>
+
+        </div>
+
+
+
+
+
+        <div class="mix" style="transform: rotate(1deg);">
+            <img src="pending/Slide4.JPG" alt="Album Cover">
+    <h1 class="mix-title">Aliens</h1>
+    <p class="curator">Andrew</p>
+    <p class="description"></p>
+<!--    <a href="spotify_link" class="link" target="parent">Spotify</a> -->
+<!--    <a href="apple_music_link" class="link" target="parent">Apple Music</a> -->
+        </div>
+
+        <div class="mix" style="transform: rotate(3deg);">
+            <img src="pending/Slide5.JPG" alt="Album Cover">
+    <h1 class="mix-title">Baby</h1>
+    <p class="curator">Lisa</p>
+    <p class="description"></p>
+<!--    <a href="spotify_link" class="link" target="parent">Spotify</a> -->
+<!--    <a href="apple_music_link" class="link" target="parent">Apple Music</a> -->
+        </div>
+
+
+
+        <div class="mix" style="transform: rotate(-3deg);">
+            <img src="images/ruttles.png" alt="Album Cover">
+            <h1 class="mix-title">Mr. Plantagenet's Crumpety Trumpet</h1>
+    <p class="curator">Caleb</p>
+    <p class="description"></p>
+    <a href="https://open.spotify.com/playlist/5QM2I5Z0QyuZeMos2mt2P7?si=6eed5d5133154663" class="link" target="parent">Spotify</a>
+    <a href="https://music.apple.com/us/playlist/mr-plantagenets-crumpety-trumpet/pl.u-k5DlU7WRB3z" class="link" target="parent">Apple Music</a>
+
+        </div>
+
+
+        <div class="mix" style="transform: rotate(-1deg);">
+            <img src="pending/Slide6.JPG" alt="Album Cover">
+    <h1 class="mix-title">70s Sitcoms</h1>
+    <p class="curator">Nina</p>
+    <p class="description"></p>
+<!--    <a href="spotify_link" class="link" target="parent">Spotify</a> -->
+<!--    <a href="apple_music_link" class="link" target="parent">Apple Music</a> -->
+        </div>
+
+
+
+
+
+
+        <div class="mix" style="transform: rotate(-3deg);">
+            <img src="images/boygirl.png" alt="Album Cover">
+            <h1 class="mix-title">Bonus: Boy Groups and Girl Bands</h1>
+    <p class="curator">Jay</p>
+    <p class="description"></p>
+    <a href="https://open.spotify.com/playlist/7F6hb281P3WxbZJrdsEp3M?si=69aca3930e7a4fc5" class="link" target="parent">Spotify</a>
+    <a href="https://music.apple.com/us/playlist/boy-groups-and-girl-bands/pl.u-k5BLF7WRB3z" class="link" target="parent">Apple Music</a>
+
+        </div>
+
+
+        <div class="mix" style="transform: rotate(-3deg);">
+            <img src="images/summer.png" alt="Album Cover">
+            <h1 class="mix-title">Bonus: Summer 2023</h1>
+    <p class="curator">John</p>
+    <p class="description"></p>
+    <a href="https://open.spotify.com/playlist/5N3nsHhzIX2utTZcXs9QnC?si=f4160f2792424542" class="link" target="parent">Spotify</a>
+    <a href="https://music.apple.com/us/playlist/cd-club-summer-2023/pl.u-oy99HR058yb" class="link" target="parent">Apple Music</a>
+
+        </div>
+
+
+
+
+
+
+        <!-- End of mix block -->
+    </div>
+</body>
+</html>
