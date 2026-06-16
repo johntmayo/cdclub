@@ -20,7 +20,7 @@ const MIXES = [
   "prompt": "Songs that go well with pink flamingos, cocktail umbrellas, tiki torches, palm trees, and oiled-up attractive people",
   "vibe": "Tropical / Island",
   "era": "2014",
-  "image": ""
+  "image": "images/tropical_expression.png"
  },
  {
   "title": "2018: Not Half Bad (Alone at Home) / 2018: Not Half Bad (No Slow Songs)",
@@ -119,7 +119,7 @@ const MIXES = [
   "prompt": "Songs that more adequately represent the ol' U.S. of A—the good, the bad, the pop ballad.",
   "vibe": "America",
   "era": "Summer 2018",
-  "image": ""
+  "image": "images/america2.jpg"
  },
  {
   "title": "Remembrance of Things Past: High",
@@ -416,7 +416,7 @@ const MIXES = [
   "prompt": "",
   "vibe": "",
   "era": "2023",
-  "image": ""
+  "image": "images/backtoback.png"
  },
  {
   "title": "Bonus: Boy Groups and Girl Bands",
@@ -530,7 +530,7 @@ const MIXES = [
  },
  {
   "title": "Please Hold",
-  "altTitle": "Hold Music",
+  "altTitle": "",
   "curator": "John Mayo",
   "spotify": "https://open.spotify.com/playlist/2tZcgecx93HyYRMg1dOrhj?si=1ffc02bf91cc4e69",
   "apple": "https://music.apple.com/us/playlist/please-hold/pl.u-87zbToa4Bel",
