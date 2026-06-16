@@ -9,7 +9,7 @@ const MIXES = [
   "prompt": "Transport you back to New York City in 1977.",
   "vibe": "1977",
   "era": "2009",
-  "image": ""
+  "image": "images/nyc77.jpg"
  },
  {
   "title": "Tropical Expression",
